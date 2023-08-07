@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<div>
+<title> </title>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css">
+
+  <title>TASTY BOX</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="css/common.css" rel="stylesheet">
+  <link href="css/sub.css" rel="stylesheet">
+
+
+</head>
+
+<div>
+  <!-- 서치박스 수정 -->
+  <!-- xxx로고 변경xxx -->
+  <!-- 폰트 적용 -->
+  <!-- 상세페이지 하단 완성 -->
+  <!-- 풋터 은행계좌 / 공지사항 / 박스바로가기 2종 수정 -->
+  <!-- 구매하기 버튼 / 총금액 색상 변경 -->
+  <!-- 최상단 띠배너 / GNB > 텍스트 상하 센터 맞춰주기 -->
+  <!-- 배송안내 리스트 점 추가 -->
+  <header>
+    <div id="banner">
+      <span id="textinbanner">오늘 가입하면 20% 할인쿠폰 지급</span>
+    </div>
+
+    <div id="top">
+      <div class="sbox">
+        <div class="site">
+          <a href="#">즐겨찾기</a>
+          <a href="#">회원가입</a>
+        </div>
+        <div class="login">
+          <a href="#">로그인</a>
+          <a href="#">회원가입</a>
+          <a href="#">마이페이지</a>
+          <a href="#">회원가입</a>
+          <a href="#">장바구니</a>
+          <a href="#">주문조회</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="box">
+      <div class="bbox">
+        <div class="logo">
+          <a href="index.html" target="_self"><img src="img/TASTYBOX-LOGO.png"></a>
+        </div>
+        <div class="search">
+          <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+
+        <div class="sbanner">
+          <a href="#"><img src="http://ecudemo149780.cafe24.com/web/upload/goodymall/kr/main/top_Rbanner.jpg"></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="menu">
+      <ul>
+        <li><a href="#">베스트</a></li>
+        <li>신상품</li>
+        <li><a href="#">공지사항</a></li>
+        <li><a href="#">상품후기</a></li>
+        <li><a href="#">공지사항</a></li>
+        <li><a href="#">상품 Q&A</a></li>
+        <li><a href="#">이용 FAQ</a></li>
+        <li><a href="#">게시판</a></li>
+        <li><a href="#">겔러리</a></li>
+        <li><a href="#">자료실</a></li>
+      </ul>
+    </div>
+
+
+  </header>
+
+
+  <div id="sub">
+
+    <div id="submenu"></div>
+
+    <div id="contents">
+      <div id="thumb_TopL">
+        <div class="M_thumb"><img src="img/main.jpg" alt=""></div>
+        <div class="S_thumb"><img src="img/sub01.jpg" alt=""></div>
+        <div class="S_thumb"><img src="img/detail01.jpg" alt=""></div>
+        <div class="S_thumb"><img src="img/sub03.jpg" alt=""></div>
+        <div class="S_thumb"><img src="img/detail0.jpg" alt=""></div>
+        <div class="S_thumb"><img src="img/detail.jpg" alt=""></div>
+      </div>
+
+      <div id="Product_info">
+        <h4>한우모둠선물세트</h4>
+        <table id="table">
+          <tbody>
+            <tr>
+              <td>원산지</td>
+              <td>국산</td>
+            </tr>
+            <tr>
+              <td>혜택</td>
+              <td>무이자 할부</td>
+            </tr>
+
+            <tr>
+              <td>무료배송</td>
+              <td>한진택배</td>
+            </tr>
+
+            <tr>
+              <td>상품선택</td>
+              <td><select id="option01" name="옵션 선택">
+                  <option>옵션선택</option>
+                  <option>1등급 한우모둠선물세트 1.2kg</option>
+                  <option>1등급 한우모둠선물세트 2.5kg</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td>수량선택</td>
+              <td><select id="option02" name="옵션 선택">
+                  <option>옵션선택</option>
+                  <option>1set</option>
+                  <option>2set</option>
+                  <option>3set</option>
+                  <option>4set</option>
+                  <option>5set</option>
+                  <option>6set</option>
+                  <option>7set</option>
+                  <option>8set</option>
+                  <option>9set</option>
+                  <option>10set</option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p id="PT_price">상품합계
+          <span id="P_price">125,000</span>
+        </p>
+        <button id="btn01"><img src="data:image/svg+xml;base64,PHN2ZyBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtNy4yMzQgMy4wMDRjLTIuNjUyIDAtNS4yMzQgMS44MjktNS4yMzQgNS4xNzcgMCAzLjcyNSA0LjM0NSA3LjcyNyA5LjMwMyAxMi41NC4xOTQuMTg5LjQ0Ni4yODMuNjk3LjI4M3MuNTAzLS4wOTQuNjk3LS4yODNjNC45NzctNC44MzEgOS4zMDMtOC44MTQgOS4zMDMtMTIuNTQgMC0zLjM1My0yLjU4LTUuMTY4LTUuMjI5LTUuMTY4LTEuODM2IDAtMy42NDYuODY2LTQuNzcxIDIuNTU0LTEuMTMtMS42OTYtMi45MzUtMi41NjMtNC43NjYtMi41NjN6bTAgMS41YzEuOTkuMDAxIDMuMjAyIDEuMzUzIDQuMTU1IDIuNy4xNC4xOTguMzY4LjMxNi42MTEuMzE3LjI0MyAwIC40NzEtLjExNy42MTItLjMxNC45NTUtMS4zMzkgMi4xOS0yLjY5NCA0LjE1OS0yLjY5NCAxLjc5NiAwIDMuNzI5IDEuMTQ4IDMuNzI5IDMuNjY4IDAgMi42NzEtMi44ODEgNS42NzMtOC41IDExLjEyNy01LjQ1NC01LjI4NS04LjUtOC4zODktOC41LTExLjEyNyAwLTEuMTI1LjM4OS0yLjA2OSAxLjEyNC0yLjcyNy42NzMtLjYwNCAxLjYyNS0uOTUgMi42MS0uOTV6IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48L3N2Zz4=" alt="관심상품"></button>
+        <button id="btn02">바로구매</button>
+        <button id="btn03">장바구니</button>
+      </div>
+
+
+
+      <div id="thumb_Bottom">
+        <h4>추천상품</h4>
+        <div class="B_thumb"><img src="img/fruit.jpg">
+          <h5>매일우유</h5>
+        </div>
+        <div class="B_thumb"><img src="img/hamburger.jpg">
+          <h5>수제버거</h5>
+        </div>
+        <div class="B_thumb"><img src="img/strawberries-box.jpg">
+          <h5>산양딸기</h5>
+        </div>
+        <div class="B_thumb"><img src="img/smoothie.jpg">
+          <h5>생과일요거트</h5>
+        </div>
+        <div class="B_thumb"><img src="img/dessert.jpg">
+          <h5>그릭요거트</h5>
+        </div>
+        <div class="B_thumb"><img src="img/olive-oil.jpg">
+          <h5>올리브오일</h5>
+        </div>
+        <div id="thumb_center_BN">
+          <img src="img/lineBN.png" alt="무료배송">
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!--상단 상품 인포 끝-->
+
+  <div id="details">
+    <ul>
+      <li><a href="#details">상품상세</a></li>
+      <li>배송안내</li>
+      <li><a href="#review">상품후기</a></li>
+      <li><a href="#inquiry">상품문의</a></li>
+    </ul>
+
+    <div class="subbox">
+
+      <div id="subimg01">
+        <img src="img/detail01.jpg" alt="">
+      </div>
+
+      <div id="subimg02">
+        <p class="title_text">부드럽고 고소한 한우 본연의 맛</p>
+        <p class="detail_text">정성들여 숙성한 최상급 한우를 보장하는 빛고을한들축산</p>
+        <img src="img/detail02.jpg" alt="">
+      </div>
+
+      <div id="subimg03">
+        <p class="title_text">부드럽고 고소한 한우 본연의 맛</p>
+        <p class="detail_text">정성들여 숙성한 최상급 한우를 보장하는 빛고을한들축산</p>
+        <img src="img/detail03.jpg" alt="">
+      </div>
+
+      <div id="subimg04">
+        <img src="img/detail04.jpg" alt="">
+      </div>
+
+      <div id="subimg05">
+        <img src="img/detail05.jpg" alt="">
+      </div>
+
+      <div id="subimg06">
+        <p class="title_text">부드럽고 고소한 한우 본연의 맛</p>
+        <p class="detail_text">정성들여 숙성한 최상급 한우를 보장하는 빛고을한들축산</p>
+        <img src="img/detail06.jpg" alt="">
+      </div>
+
+      <div id="subimg07">
+        <img src="img/detail07.jpg" alt="">
+      </div>
+
+      <div id="subimg08">
+        <p class="title_text">부드럽고 고소한 한우 본연의 맛</p>
+        <p class="detail_text">정성들여 숙성한 최상급 한우를 보장하는 빛고을한들축산</p>
+        <img src="img/detail08.jpg" alt="">
+      </div>
+
+      <div id="subimg09">
+        <img src="img/detail09.jpg" alt="">
+      </div>
+
+      <div id="subimg10">
+        <img src="img/detail10.jpg" alt="">
+      </div>
+
+      <div id="detail_tablebox">
+        <h3>상품필수정보</h3>
+        <table>
+          <tr>
+            <th>
+              상품 필수정보
+              품목 또는 명칭</th>
+            <td>1등급 한우선물세트 꽃등심 1.2kg</td>
+          </tr>
+          <tr>
+            <th>포장 단위별 내용물의 용량<br> (중량), 수량, 크기</th>
+            <td>등심 1.2kg</td>
+          </tr>
+          <tr>
+            <th>생산자</th>
+            <td>빛고을한들축산</td>
+          </tr>
+          <tr>
+            <th>수입자</th>
+            <td>해당사항 없음</td>
+          </tr>
+          <tr>
+            <th>원산지</th>
+            <td>국내산(국내산)</td>
+          </tr>
+          <tr>
+            <th>제조연월일/유통기한,소비기한<br> 또는 품질유지기한</th>
+            <td>상세설명참조
+              유통기한-냉장(-2~5℃ )보관 : 7일</td>
+          </tr>
+          <tr>
+            <th>축산법에 따른 등급표시</th>
+            <td>축산물등급표시 有 1등급</td>
+          </tr>
+          <tr>
+            <th>이력관리대상축산물 유무</th>
+            <td>배송되는 상품에는 이력번호가 표시되어 있습니다.</td>
+          </tr>
+          <tr>
+            <th>상품 구성</th>
+            <td>한우 꽃등심 1.2kg</td>
+          </tr>
+          <tr>
+            <th>보관방법 또는 취급방법</th>
+            <td>냉장(-2~5℃ )보관 : 7일</td>
+          </tr>
+          <tr>
+            <th>식품등의표시.광고에 관한 법률에<br> 따른 소비자안전을 위한 주의사항</th>
+            <td>부정, 불량식품 신고는 국번없이 1399</td>
+          </tr>
+          <tr>
+            <th>소비자 상담 관련 전화번호</th>
+            <td>062)674-5633</td>
+          </tr>
+          <tr>
+            <th>수입식품안전관리특별법에 <br>따른 수입신고 필함 여부</th>
+            <td>해당사항 없음</td>
+          </tr>
+        </table>
+      </div>
+
+      <!--배송안내-->
+      <div id="shipping">
+        <ul>
+          <li>
+            <a href="#details">상세정보</a>
+          </li>
+          <li>배송안내</li>
+          <li><a href="#review">상품후기</a>
+          </li>
+          <li><a href="#inquiry">상품문의</a>
+          </li>
+        </ul>
+
+        <div id="shipping_textbox">
+          <h2>배송안내</h2>
+          <ul>
+            <li>CJ대한통운 택배(1588-1255)<br> - 일부 품목은 출고지가 달라 차 택배로 출고될 수 있습니다
+            </li>
+            <li>배송료:50,000원 이상 구매시 무료배송이며, 그 이하는 각 박스당 3,500원의 배송비를 부담하셔야 합니다<br> - 도서, 산간, 제주도, 일부 지역 등은 배송비가 추가될 수
+              있습니다<br> - 상품이 출고되는 창고가 다르거나, 배송사 규격 제한의 사유로 분리 포장될 수 있습니다. 50,000원 이상 구매 시 박스 수량 관계없이 무료배송 됩니다<br>(단,
+              반품으로 인해 무료배송 기준에 미달되는 경우 박스 당 3,500원씩 초기 배송비가 부과됩니다)</li>
+            <li>구매하신 제품은 출고 후 평균 2~3일 이내에 받아보실 수 있습니다(일요일, 공휴일, 천재지변 제외)
+            </li>
+            <li>상품을 여러가지 구매하실 땐 재고가 파악되는 상품에 한해서 선발송 해드리고 있으며 나머지 입고가 지연되는 상품에 한해서는 후발송을 해드려 부분적으로나마 상품을 신속히 받아보실 수 있도록
+              조치하고 있습니다
+            </li>
+            <li>입고 지연되는 제품이 있을 경우 재고가 파악되는 제품에 한해서 선 발송해드리거나 개별적으로 연락을 취해 신속하게 배송을 해드릴 수 있도록 조치하고 있습니다
+            </li>
+            <li>주문 후(발송 전) 배송지나 옵션 변경시 고객행복센터(1877-9920)로 연락 주시면 신속하게 변경 처리를 해드립니다
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--배송안내 끝-->
+
+      <!--상품후기 시작-->
+      <div id="review">
+        <ul>
+          <li><a href="#details">상세정보</a></li>
+          <li><a href="#shipping">배송안내</a></li>
+          <li>상품후기</li>
+          <li><a href="#inquiry">상품문의</a></li>
+        </ul>
+        <div id="review_tablebox">
+          <button>리뷰 작성하기</button>
+          <table class="rtable">
+            <tbody>
+              <tr class="rtr">
+                <th class="rth">5</th>
+                <td class="rtd"><a href="#">재구매 의사 100%</a></td>
+                <td class="rtd"><a href="#">이지은</a></td>
+                <td class="rtd"><a href="#">2023.08.05</a></td>
+                <td class="rtd"><a href="#">답변완료</a></td>
+              </tr>
+              <tr class="rtr">
+                <th class="rth">4</th>
+                <td class="rtd"><a href="#">마블링이 장난이 아닙니다~!</a></td>
+                <td class="rtd"><a href="#">김주은</a></td>
+                <td class="rtd"><a href="#">2023.08.02</a></td>
+                <td class="rtd"><a href="#">답변완료</a></td>
+              </tr>
+              <tr class="rtr">
+                <th class="rth">3</th>
+                <td class="rtd"><a href="#">너무 부드러워요 강추합니다~</a></td>
+                <td class="rtd"><a href="#">홍혜빈</a></td>
+                <td class="rtd"><a href="#">2023.08.01</a></td>
+                <td class="rtd"><a href="#">답변완료</a></td>
+              </tr>
+              <tr class="rtr">
+                <th class="rth">2</th>
+                <td class="rtd"><a href="#">윤기가 좔좔 입에서 녹네요</a></td>
+                <td class="rtd"><a href="#">박주현</a></td>
+                <td class="rtd"><a href="#">2023.07.24</a></td>
+                <td class="rtd"><a href="#">답변완료</a></td>
+              </tr>
+              <tr class="rtr">
+                <th class="rth">1</th>
+                <td class="rtd"><a href="#">역시 한우는 한우네요!</a></td>
+                <td class="rtd"><a href="#">이제니</a></td>
+                <td class="rtd"><a href="#">2023.07.05</a></td>
+                <td class="rtd"><a href="#">답변완료</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+  <!--상품후기 끝-->
+
+
+          <!--상품문의 시작-->
+          <div id="inquiry">
+            <ul>
+              <li><a href="#details">상세정보</a></li>
+              <li><a href="#shipping">배송안내</a></li>         
+              <li><a href="#inquiry">상품문의</a></li>
+              <li>상품문의</li>
+            </ul>
+            <div id="inquiry_tablebox">
+              <button>상품문의 전체보기</button>
+              <button>상품문의 글쓰기</button>
+              <table class="itable">
+                <tbody>
+                  <tr class="itr">
+                    <th class="ith">5</th>
+                    <td class="itd"><a href="#">재구매 의사 100%</a></td>
+                    <td class="itd"><a href="#">이지은</a></td>
+                    <td class="itd"><a href="#">2023.08.05</a></td>
+                    <td class="itd"><a href="#">답변완료</a></td>
+                  </tr>
+                  <tr class="itr">
+                    <th class="ith">4</th>
+                    <td class="itd"><a href="#">마블링이 장난이 아닙니다~!</a></td>
+                    <td class="itd"><a href="#">김주은</a></td>
+                    <td class="itd"><a href="#">2023.08.02</a></td>
+                    <td class="itd"><a href="#">답변완료</a></td>
+                  </tr>
+                  <tr class="itr">
+                    <th class="ith">3</th>
+                    <td class="itd"><a href="#">너무 부드러워요 강추합니다~</a></td>
+                    <td class="itd"><a href="#">홍혜빈</a></td>
+                    <td class="itd"><a href="#">2023.08.01</a></td>
+                    <td class="itd"><a href="#">답변완료</a></td>
+                  </tr>
+                  <tr class="itr">
+                    <th class="ith">2</th>
+                    <td class="itd"><a href="#">윤기가 좔좔 입에서 녹네요</a></td>
+                    <td class="itd"><a href="#">박주현</a></td>
+                    <td class="itd"><a href="#">2023.07.24</a></td>
+                    <td class="itd"><a href="#">답변완료</a></td>
+                  </tr>
+                  <tr class="itr">
+                    <th class="ith">1</th>
+                    <td class="itd"><a href="#">역시 한우는 한우네요!</a></td>
+                    <td class="itd"><a href="#">이제니</a></td>
+                    <td class="itd"><a href="#">2023.07.05</a></td>
+                    <td class="itd"><a href="#">답변완료</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!--상품문의 끝-->
+    </div>
+  </div>
+
+  <div id="footer">
+    <div id="topfooter">
+      <div class="TF_inner01">
+        <ul>
+          <li class="footertitle">고객만족센터</li>
+          <li class="footercall">070-000-0000</li>
+          <li class="footerfax">FAX : 031-000-0000</li>
+          <li class="footertime">메일 : ezen@ezen.com</li>
+          <li class="footertime">평일 : 평일 - 09:00~18:00 / 토요일 - 10:00~14:00</li>
+        </ul>
+      </div>
+      <div class="TF_inner02">
+        <ul>
+          <li class="footertitle">은행계좌 안내</li>
+          <li class="bankround"><span>국민</span>000000-00-000000</li>
+          <li class="bankround"><span>우리</span>000000-00-000000</li>
+          <li class="bankname">예금주 | 이젠유통</li>
+        </ul>
+      </div>
+      <div class="TF_inner03">
+        <p>공지사항</p>
+        <table id="news">
+          <tr>
+            <td><a href="#">·　왼쪽고정형 템플릿으로 가장 익숙한</a></td>
+            <td>2023/08/02</td>
+          </tr>
+          <tr>
+            <td><a href="#">·　편리한 UI/UX 구현으로 소비자</a></td>
+            <td>2023/08/02</td>
+          </tr>
+          <tr>
+            <td><a href="#">·　EZEN Design ☎</a></td>
+            <td>2023/08/02</td>
+          </tr>
+        </table>
+      </div>
+      <div class="TF_inner04">
+        <ul>
+          <li><a href="#">Q&A<span>상품문의</span></a></li>
+          <li><a href="#" class="dark">REVIEW<span>구매후기</span></a></li>
+          <li><a href="#" class="dark">NOTICE<span>공지사항</span></a></li>
+          <li><a href="#">EVENT<span>이벤트</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="linefooter">
+      <div class="LF_inner"> Copyright ⓒ2023EZEN ENTERTAINMENT. LTD. All rights reserved</div>
+    </div>
+    <div class="BF_harf_BG">
+      <div id="bottomfooter">
+        <div class="BF_inner01"><img src="http://ecudemo149780.cafe24.com/web/upload/goodymall/kr/main/logo_footer.gif"
+            alt="logo">
+        </div>
+        <div class="BF_inner02">
+          <span>법인명(상호) : 이젠</span>
+          <span>대표자(성명) : 이젠유통</span>
+          <span>사업자 등록번호 안내 : [202-67-00083]</span>
+          <span> 통신판매업 신고</span><br>
+          <span>전화 : 031-000-0000</span>
+          <span>팩스 : 031-000-0000</span>
+          <span>주소 : 12345 경기도 수원시 팔달구 인계동 1004번지</span><br>
+          <span>Contact for more information.</span>
+          <span>Copyright ⓒ2023 EZEN ENTER. LTD. All rights reserved</span>
+          <span>Hosting by 이젠인터넷(주)</span>
+          <p>※ 모든 제작물의 저작권은 당사에 있으며, 무단 복제나 도용은 저작권법(97조 5항)에 의해 금지되어 있습니다. 이를 위반시 처벌을 받을 수 있습니다.</p>
+        </div>
+        <div class="BF_inner03">
+          <ul>
+            <l1><img src="http://ecudemo149780.cafe24.com/web/upload/goodymall/kr/layout/ft_banner1.gif">
+            </l1>
+            <l1><img src="http://ecudemo149780.cafe24.com/web/upload/goodymall/kr/layout/ft_banner2.gif">
+            </l1>
+            <li><img src="http://ecudemo149780.cafe24.com/web/upload/goodymall/kr/layout/ft_banner3.gif">
+            </li>
+            <li><img src="http://ecudemo149780.cafe24.com/web/upload/goodymall/kr/layout/ft_banner4.gif">
+              </l1>
+            <li><img src="http://ecudemo149780.cafe24.com/web/upload/goodymall/kr/layout/ft_banner5.gif">
+              </l1>
+            <li><img src="http://ecudemo149780.cafe24.com/web/upload/goodymall/kr/layout/ft_banner6.gif">
+              </l1>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </body>
+
+</html>

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css">
+    
+    <title>TASTY BOX</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration-line: none;
+            list-style: none;
+            font-family: 'AppleSDGothicNeo', 'Noto Sans KR', sans-serif;
+        }
+
+        #footer {
+            width: 100%;
+            height: 460px;
+            margin: 0 auto;
+            border-top: 1px solid #cccccc;
+            overflow: hidden;
+        }
+
+        #topfooter {
+            width: 1250px;
+            height: 188px;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .TF_inner01 {
+            width: 322px;
+            height: 188px;
+            margin: 0 auto;
+            float: left;
+        }
+
+        .TF_inner01>ul>li {
+            display: block;
+        }
+
+        .TF_inner01>ul>.footertitle {
+            font-size: 16px;
+            color: #000;
+            font-family: 'Nanum Gothic';
+            text-decoration: none;
+            font-weight: bold;
+            letter-spacing: -1px;
+            line-height: 22px;
+            margin: 20px 0 0 0px;
+        }
+
+        .TF_inner01>ul>.footercall {
+            font-size: 30px;
+            color: #e00000;
+            font-weight: bold;
+            font-family: 'Nanum Gothic';
+            text-decoration: none;
+            letter-spacing: -1px;
+            line-height: 40px;
+            margin-top: 10px;
+        }
+
+        .TF_inner01>ul>.footerfax {
+            font-size: 16px;
+            color: #333;
+            font-weight: bold;
+            font-family: 'Nanum Gothic';
+            text-decoration: none;
+            line-height: 16px;
+            margin-top: 5px;
+        }
+
+        .TF_inner01>ul>.footertime {
+            font-size: 12px;
+            color: #555;
+            font-weight: bold;
+            font-family: 'Nanum Gothic';
+            text-decoration: none;
+            line-height: 16px;
+            margin-top: 5px;
+        }
+
+        .TF_inner02 {
+            width: 264px;
+            height: 188px;
+            margin: 0 auto;
+            float: left;
+        }
+
+
+        .TF_inner02>ul>.footertitle {
+            font-size: 16px;
+            color: #000;
+            font-family: 'Nanum Gothic';
+            text-decoration: none;
+            font-weight: bold;
+            letter-spacing: -1px;
+            line-height: 22px;
+            margin: 20px 0px 18px 0px;
+        }
+
+        .TF_inner02>ul>.bankround>li {
+            background-color: #efc147;
+            border-radius: 20px;
+        }
+
+        .TF_inner02>ul>.bankround>span {
+            font-size: 12px;
+            border-radius: 200px;
+            padding: 3px 7px;
+            margin: 0 7px auto 0;
+            color: #fff;
+            font-weight: bold;
+            font-family: 'Nanum Gothic';
+            background: #666;
+            line-height: 5px;
+        }
+
+        .TF_inner02>ul>.bankname {
+            font-size: 14px;
+            color: #333;
+            font-weight: bold;
+            font-family: 'Nanum Gothic';
+            text-decoration: none;
+            letter-spacing: -1px;
+            line-height: 16px;
+            margin-top: 10px;
+        }
+
+        .TF_inner03 {
+            width: 352px;
+            height: 188px;
+            margin: 0 auto;
+            float: left;
+        }
+
+        .TF_inner03>#news {
+            width: 320px;
+            height: 100px;
+            font-size: 12px;
+            padding: 3px 4px;
+            border-bottom: 1px #d8d8d8;
+        }
+
+        .TF_inner03>#news td:first-child {
+            width: 230px;
+        }
+
+        .TF_inner03>#news td:nth-child(2) {
+            text-align: center;
+            color: #7a7a7a;
+        }
+
+        .TF_inner03>#news a {
+            color: #4f4f4f;
+            text-decoration: none;
+        }
+
+        .TF_inner03>#news a:hover {
+            color: #c48e2c
+        }
+
+        .TF_inner03>p {
+            font-size: 16px;
+            color: #000;
+            font-family: 'Nanum Gothic';
+            text-decoration: none;
+            font-weight: bold;
+            letter-spacing: -1px;
+            line-height: 22px;
+            margin: 20px 0 10px 0px;
+        }
+
+        .TF_inner04 {
+            width: 312px;
+            margin: 0 auto;
+            float: left;
+            font-family: 'Nanum Gothic';
+            padding-top: 20px;
+        }
+
+        .TF_inner04>ul>li>a {
+            width: 108px;
+            height: 60px;
+            background-color: #969696;
+            color: #fff;
+            font-size: 12px;
+            text-align: center;
+            vertical-align: middle;
+            display: table-cell;
+            text-decoration: none;
+        }
+
+        .TF_inner04>ul>li>a:hover {
+            background: #ccc;
+        }
+
+        .TF_inner04>ul>li>.dark {
+            width: 108px;
+            height: 60px;
+            background-color: #333;
+            color: #fff;
+            font-size: 12px;
+            text-align: center;
+            vertical-align: middle;
+            display: table-cell;
+            text-decoration: none;
+        }
+
+        .TF_inner04>ul>li>.dark:hover {
+            background: #ccc;
+        }
+
+        .TF_inner04>ul>li>a>span {
+            display: block;
+            font-size: 13px;
+        }
+
+        #linefooter {
+            background-color: #6a6a6a;
+            height: 38px;
+            line-height: 38px;
+            text-align: center;
+        }
+
+        .LF_inner {
+            position: relative;
+            margin: 0 auto;
+            width: 1250px;
+            text-align: left;
+            color: white;
+            font-size: 12px;
+        }
+
+        .BF_harf_BG {
+            width: 100%;
+            height: 270px;
+            margin: 0 auto;
+            background-color: #ececec;
+            overflow: hidden;
+        }
+
+        #bottomfooter {
+            width: 1250px;
+            height: 240px;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .BF_inner01 {
+            width: 322px;
+            height: 180px;
+            padding: 40px 0 0 0;
+            margin: 0 auto;
+            float: left;
+        }
+
+        .BF_inner02 {
+            width: 928px;
+            height: 100px;
+            padding: 40px 0 0 0;
+            margin: 0 auto;
+            float: left;
+        }
+
+        .BF_inner02>span {
+            color: #888;
+            font-size: 11px;
+            letter-spacing: -1px;
+            line-height: 5px;
+        }
+
+        .BF_inner02>p {
+            display: inline-block;
+            font-size: 11px;
+            color: #b4b4b4;
+            letter-spacing: -1px;
+            margin: 15px 0 0 0px;
+        }
+
+        .BF_inner03 {
+            width: 928px;
+            height: 100px;
+            margin: 0 auto;
+            padding: 20px 0 0 0;
+            display: inline-block;
+        }
+
+        .BF_inner03>ul,
+        li {
+            display: inline-block;
+            margin: auto auto 2px 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="footer">
+        <div id="topfooter">
+            <div class="TF_inner01">
+                <ul>
+                    <li class="footertitle">고객만족센터</li>
+                    <li class="footercall">070-000-0000</li>
+                    <li class="footerfax">FAX : 031-000-0000</li>
+                    <li class="footertime">메일 : ezen@ezen.com</li>
+                    <li class="footertime">평일 : 평일 - 09:00~18:00 / 토요일 - 10:00~14:00</li>
+                </ul>
+            </div>
+            <div class="TF_inner02">
+                <ul>
+                    <li class="footertitle">은행계좌 안내</li>
+                    <li class="bankround"><span>국민</span>000000-00-000000</li>
+                    <li class="bankround"><span>우리</span>000000-00-000000</li>
+                    <li class="bankname">예금주 | 이젠유통</li>
+                </ul>
+            </div>
+            <div class="TF_inner03">
+                <p>공지사항</p>
+                <table id="news">
+                    <tr>
+                        <td><a href="#">·　왼쪽고정형 템플릿으로 가장 익숙한</a></td>
+                        <td>2023/08/02</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">·　편리한 UI/UX 구현으로 소비자</a></td>
+                        <td>2023/08/02</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">·　EZEN Design ☎</a></td>
+                        <td>2023/08/02</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="TF_inner04">
+                <ul>
+                    <li><a href="#">Q&A<span>상품문의</span></a></li>
+                    <li><a href="#" class="dark">REVIEW<span>구매후기</span></a></li>
+                    <li><a href="#" class="dark">NOTICE<span>공지사항</span></a></li>
+                    <li><a href="#">EVENT<span>이벤트</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="linefooter">
+            <div class="LF_inner"> Copyright ⓒ2023EZEN ENTERTAINMENT. LTD. All rights reserved</div>
+        </div>
+        <div class="BF_harf_BG">
+            <div id="bottomfooter">
+                <div class="BF_inner01"><img
+                        src="http://ecudemo149780.cafe24.com/web/upload/goodymall/kr/main/logo_footer.gif" alt="logo">
+                </div>
+                <div class="BF_inner02">
+                    <span>법인명(상호) : 이젠</span>
+                    <span>대표자(성명) : 이젠유통</span>
+                    <span>사업자 등록번호 안내 : [202-67-00083]</span>
+                    <span> 통신판매업 신고</span><br>
+                    <span>전화 : 031-000-0000</span>
+                    <span>팩스 : 031-000-0000</span>
+                    <span>주소 : 12345 경기도 수원시 팔달구 인계동 1004번지</span><br>
+                    <span>Contact for more information.</span>
+                    <span>Copyright ⓒ2023 EZEN ENTER. LTD. All rights reserved</span>
+                    <span>Hosting by 이젠인터넷(주)</span>
+                    <p>※ 모든 제작물의 저작권은 당사에 있으며, 무단 복제나 도용은 저작권법(97조 5항)에 의해 금지되어 있습니다. 이를 위반시 처벌을 받을 수 있습니다.</p>
+                </div>
+                <div class="BF_inner03">
+                    <ul>
+                        <l1><img src="http://ecudemo149780.cafe24.com/web/upload/goodymall/kr/layout/ft_banner1.gif">
+                        </l1>
+                        <l1><img src="http://ecudemo149780.cafe24.com/web/upload/goodymall/kr/layout/ft_banner2.gif">
+                        </l1>
+                        <li><img src="http://ecudemo149780.cafe24.com/web/upload/goodymall/kr/layout/ft_banner3.gif">
+                        </li>
+                        <li><img src="http://ecudemo149780.cafe24.com/web/upload/goodymall/kr/layout/ft_banner4.gif">
+                            </l1>
+                        <li><img src="http://ecudemo149780.cafe24.com/web/upload/goodymall/kr/layout/ft_banner5.gif">
+                            </l1>
+                        <li><img src="http://ecudemo149780.cafe24.com/web/upload/goodymall/kr/layout/ft_banner6.gif">
+                            </l1>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
